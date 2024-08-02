@@ -17,6 +17,9 @@ This project is a React single-page application (SPA) that uses Firebase for aut
 - Notifications are marked as "read" once viewed.
 
   
+## Demo Video Link
+
+https://www.dropbox.com/scl/fi/vadsbtv3e70ff3ha56jyz/firebaseNotificationApp.mov?rlkey=vdfsq1cy45kolalx0fak3b7cm&st=5njffmut&dl=0
 
 ## Technologies Used
 
@@ -42,10 +45,8 @@ Follow these steps to set up and run the project:
 
 ### 1. Clone the Repository
 
-  
 
-
-    git clone  https://github.com/your-username/your-repository-name.git
+    git clone  https://github.com/murtuzakapadia121/firebase-notification-app.git
     
     cd  your-repository-name
 
@@ -67,7 +68,7 @@ Install Firebase  CLI  if  you  haven't already:
 
     firebase emulators:start
 
-###  5. Run the Development Server
+###  4. Run the Development Server
 
     npm start
 

@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+/* NotificationItem.css */
+.notification {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.notification-info {
+  background-color: #d9edf7;
+  color: #31708f;
+  border: 1px solid #bce8f1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.notification-warning {
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+  border: 1px solid #faebcc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.notification-error {
+  background-color: #f2dede;
+  color: #a94442;
+  border: 1px solid #ebccd1;
+}
+
+.notification button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-weight: bold;
+}
+
+.notification button:hover {
+  text-decoration: underline;
+}
+
+
+.button-container, .notification-container{
+  padding: 20px;
+}
+
+.button-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.alertButton{
+  height: 40px;
+  width: 300px;
+  box-shadow: 1px 1px 20px 4px rgb(210, 209, 209);
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.alertButton:active{
+  height: 40px;
+  width: 300px;
+  box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+}
+
+.alertButton.Info{
+  background-color: #d9edf7;
+  color: #31708f;
+  border: 1px solid #bce8f1;
+}
+
+.alertButton.Warning{
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+  border: 1px solid #faebcc;
+}
+
+.alertButton.Error{
+  background-color: #f2dede;
+  color: #a94442;
+  border: 1px solid #ebccd1;
 }
